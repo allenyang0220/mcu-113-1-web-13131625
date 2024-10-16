@@ -6,6 +6,9 @@ body {
 h3 {
   text-align: center;
 }
+nav {
+  margin-bottom: 10px;
+}
 .card {
   border: solid 1px #999;
   border-radius: 8px;
@@ -18,10 +21,14 @@ input[type="text"] {
 table {
   border-collapse: collapse;
   width: 100%;
+  margin: 10px 0;
 }
 td,
 th {
   height: 30px;
+}
+tr > td {
+  padding: 8px;
 }
 th.id {
   width: 120px;
@@ -34,4 +41,7 @@ th.company {
 price {
   width: 100px;
   text-align: right;
+}
+footer {
+  margin-top: 20px;
 }
